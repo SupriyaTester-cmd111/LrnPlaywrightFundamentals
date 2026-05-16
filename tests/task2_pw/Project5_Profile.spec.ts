@@ -15,7 +15,7 @@ test('Profile complition form',async ({page}) => {
 
     const profession = await page.getByTestId('profession-automation').click();
 
-    const technicalskil = await page.getByTestId('tool-selenium').isChecked();
+    const technicalskil = await page.getByTestId('tool-selenium').click();
 
 
 
