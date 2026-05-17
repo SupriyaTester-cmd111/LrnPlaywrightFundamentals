@@ -16,7 +16,7 @@ await page.frameLocator('#frame-one').locator('#vehicle-output').textContent();
 
 
 
-await page.waitForTimeout(6000);
+await page.waitForTimeout(9000);
 
 
 })
